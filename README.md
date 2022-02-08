@@ -46,7 +46,7 @@ O PlayerCast é um site ficticio de um website para uma plataforma de podcasts, 
  
 ## Links
  
-  - Repository: https://github.com/rafaelmaron/my_github_desafio
+  - Repository: https://github.com/rafaelmaron/my_github
  
  
 ## Versão
