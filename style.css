@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body{
+	font-family: arial;
+	background-color: #f7f9f9;
+}
+
+.header__a{
+	    font-family: 'Great Vibes', cursive, Arial;
+	    font-size: 1.5rem;
+}
+
+.nav__btn{
+	border-color: #81a473;
+}
+
+.nav__btn a{
+	text-decoration: none;
+	color: #81a473;
+}
+
+.nav__btn a: hover{
+	text-decoration: none;
+}
+
+/* Estilização rodapé das páginas */
+
+.rodape{
+	background-color: #111111;
+	text-align: center;
+	font-size: 0.8em;
+	padding: 35px;
+}
+
+.rodape a{
+	text-decoration: none;
+	color: white;
+	padding:10px;	
+}
+
+.rodape a:hover{
+	color: lightcoral;	
+}
+
+.btn-primary{
+	background-color: #81a473;
+	border-color: #81a473;
+}
+
+.btn-primary:hover{
+	background-color: #81a44f;
+	border-color: #81a44f;
+}

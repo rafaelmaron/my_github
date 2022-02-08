@@ -1,0 +1,92 @@
+.login__titulo{
+				text-align: center;
+			}
+
+.login__titulo h1{
+	margin-top: 3rem;
+	font-size: 2.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.c-login{
+	width: 30%;
+	margin: 0 auto;
+	background-color: white;
+	padding: 30px;
+	border-radius: 10px;
+	border: 1px solid lightgray;
+	margin-bottom: 30rem;
+}
+
+@media (max-width: 1375px){
+	.c-login{
+	width: 55%;
+	}
+}
+
+@media (max-width: 900px){
+	.c-login{
+		width: 90%;
+	}
+}
+
+.cartao__input{
+	position: relative;
+	padding-top: 13px;
+	margin-bottom: 5%;
+}
+
+.campo__input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #d6eaff;
+	padding: 5px 5px;
+	display: inline-block;
+	outline: none;
+	transition: all .3s ease-out;
+	font-size: 16px;
+}
+
+.campo__input:focus{
+	border-bottom: 2px solid black;
+}
+
+.card__label{
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 18px;
+	transition: all .3s ease-out;
+	color: gray;
+	background-color: white;
+	width: 100%;
+
+}
+
+.campo__input:focus + label,
+.campo__input:valid + label{
+	font-size: 13px;
+	margin-top: 0;
+}
+
+.card__posicao__botao{
+	text-align: center;
+}
+
+.card-login__botao{
+	width: 30%;
+	height: 50px;
+	border-radius: 5px;
+	background-color: #81a473;
+	border: none;
+	color: white;
+}
+
+.criar-conta{
+	margin-top: 1.5rem;
+}
+
+.criar-conta a{
+	color: darkblue;
+}

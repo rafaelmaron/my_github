@@ -1,0 +1,244 @@
+.container__carrossel{
+	width: 95%;
+	margin: 0 auto;
+}
+
+.carrossel__borderradius{
+	border-radius: 15px;
+}
+
+@media (max-width: 960px){
+	.container__carrossel{
+		width: 100%;
+	}
+
+	.carrossel__borderradius{
+		border-radius: 0px;
+	}
+}
+
+.carrossel__img__1{
+	object-fit: cover;
+	object-position: 0 35%;
+	height: 550px;
+}
+
+.carrossel__img__2{
+	object-fit: cover;
+	object-position: 0 9%;
+	height: 550px;
+}
+
+.carrossel__img__3{
+	object-fit: cover;
+	object-position: 0 36%;
+	height: 550px;
+}
+
+/* Texto Animado */
+
+.text-box{
+	font-size: 80px;
+	font-weight: 900;
+	text-align: center;
+	width:100%;
+	margin-top: 50px;
+}
+.fixed-text{
+	display: inline-block;
+}
+.animate-text{
+	display: inline-block;
+	vertical-align: top;
+	height: 113px;
+	overflow: hidden;
+}
+.animate-text div{
+	animation:9s wordChange;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(1);
+}
+.animate-text span{
+	position: relative;
+	color: #81a473;
+	display: block;
+	text-align: left;
+
+}
+.animate-text span:after{
+	content: "";
+	position: absolute;
+	left: 0;
+	border-left: 5px solid #81a473;
+	height: 100%;
+	animation:3s textType;
+	animation-iteration-count: infinite;
+	animation-timing-function: steps(9);
+	animation-fill-mode: backwards;
+	right: -2px;
+	background-color: #f7f9f9;
+	overflow: hidden;
+}
+
+@keyframes textType{
+	0%{
+		left: 0;
+	}
+	50%{
+		left: 100%;
+	}
+	100%{
+		left: 0;
+	}
+}
+@keyframes wordChange{
+	0%{
+		margin-top: 0;
+	}
+	33.333%{
+		margin-top: -120px;
+	}
+	66.666%{
+		margin-top: -240px;
+	}
+	100%{
+		margin-top: 0;
+	}
+}
+
+/* Setas Animadas*/
+
+.arrow span{
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-bottom: 2.5px solid black;
+	border-right: 2.5px solid black;
+	transform: rotate(45deg);
+	animation: animate 2s infinite;
+	margin: -10px;	
+}
+
+.arrow span:nth-child(2){
+	animation-delay: -0.2s; 
+}
+
+.arrow span:nth-child(3){
+	animation-delay: -0.4s; 
+}
+
+@keyframes animate{
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20px,-20px);
+	}
+
+	50%{
+		opacity: 1;
+	}
+
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20px,20px);
+	}
+}
+
+.container__seta{
+	width: 10px;
+	margin: 0 auto;
+	margin-top: 55px;
+}
+
+/* 3 itens da pagina index */
+
+.container__icones{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 550px;
+}
+
+@media (max-width: 960px){
+	.container__icones{
+		width: 100%;
+	}
+}
+
+.container__icones h2{
+	font-weight: bold;
+	margin-top: 100px;
+	margin-top: 0;
+}
+
+
+.float1{
+	width: 30%;
+	float: left;
+}
+
+.float2{
+	width: 30%;
+	float: left;
+	margin-left: 3%;
+}
+
+.float3{
+	width: 30%;
+	float: left;
+	margin-left: 3%;
+}
+
+.img-app{
+	margin: 0 auto;
+	width: 70%;
+	margin-bottom: 150px;
+	text-align: center;
+}
+
+@media (max-width: 1665px){
+	.img-app{
+		width: 80%;
+		margin-bottom: ;
+	}
+}
+
+@media (max-width: 1350px){
+	.img-app{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+}
+
+.cont-subtitulo__titulo{
+	margin: 0 auto;
+	width: 70%;
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
+
+@media (max-width: 1350px){
+	.cont-subtitulo__titulo{
+		margin-bottom: 0;
+	}
+}
+
+.card__border--disable{
+	border: none;
+}
+
+.card-destaque__img{
+	height: 250px;
+}
+
+.card-destaque__margin{
+	margin-top: 4rem;
+}
+
+
+@media (max-width: 1350px){
+	.card-destaque__margin{
+		margin-bottom: 0px;
+	}
+}

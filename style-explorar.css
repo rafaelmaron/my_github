@@ -1,0 +1,8 @@
+.card__margin{
+	margin-bottom: 1rem;
+}
+
+.c-explorar__img{
+	object-fit: cover;
+	height: 18rem;
+}
