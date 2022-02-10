@@ -1,6 +1,8 @@
 ## PlayerCast
  
 O PlayerCast é um site ficticio de um website para uma plataforma de podcasts, no site estão vários dos podcasts mais ouvidos do Brasil, e existe uma vasta quantidade diversos estilos de podcasts para agradar todos os tipos de usuários.
+
+/* O projeto foi enviado para o GitHub apenas com UM audio em funcionamento, o Nerdcast nº 800, para deixar o projeto mais leve. */
  
  
 ## Tecnologias usadas
